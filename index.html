@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Calculator</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Calculator</title>
   </head>
   <body>
     <div class="container">
       <h1>Calcuator</h1>
+      <h3>Add</h3>
       <form id="add" class="form-inline">
         <div class="form-group">
           <label for="add1">1st number:</label>
@@ -21,6 +22,45 @@
         </div>
         <button type="submit" class"btn">ADD!</button>
       </form>
+      <h3>Subtract</h3>
+      <form id="subtract" class="form-inline">
+        <div class="form-group">
+          <label for="subtract1">1st number:</label>
+          <input id="subtract1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="subtract2">2nd number:</label>
+          <input id="subtract2" class="form-control" type="text">
+        </div>
+        <button type="submit" class"btn">SUBTRACT!</button>
+      </form>
+      <h3>Multiply</h3>
+      <form id="multiply" class="form-inline">
+        <div class="form-group">
+          <label for="multiply1">1st number:</label>
+          <input id="multiply1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="multiply2">2nd number:</label>
+          <input id="multiply2" class="form-control" type="text">
+        </div>
+        <button type="submit" class"btn">MULTIPLY!</button>
+      </form>
+      <h3>Divide</h3>
+      <form id="divide" class="form-inline">
+        <div class="form-group">
+          <label for="divide1">1st number:</label>
+          <input id="divide1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="divide2">2nd number:</label>
+          <input id="divide2" class="form-control" type="text">
+        </div>
+        <button type="submit" class"btn">DIVIDE!</button>
+      </form>
+      <div id="output">
+
+      </div>
     </div>
   </body>
 </html>
